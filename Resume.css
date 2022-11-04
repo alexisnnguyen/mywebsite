@@ -294,4 +294,63 @@ nav img {
         line-height: 60px;
     }
     
+    .description {
+        margin: 7% 7%;
+    
+    }
+    
+    .description h2 {
+        font-size: 5vw;
+    }
+    
+    .description p {
+        font-size: 3.25vw;
+        padding-bottom: 20px;
+        color: rgb(146, 133, 109);
+    }
+    
+    .description button {
+        border: double;
+        background-color: rgb(143, 125, 96);
+        color: white;
+        padding: 1vw 2vw;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5vw;
+        margin: 2vw 0;
+        cursor: pointer;
+    }
+
+    .resume {
+        margin: 0 3%;
+    }
+    
+    .resume h2 {
+        color: rgb(89, 75, 50);
+        margin: 1vw 2vw;
+        font-size: 3.5vw;
+    }
+
+    .resume p {
+        font-size: 2.25vw;
+    }
+
+    .description button {
+        margin: 2vw 0;
+        font-size: 3vw;
+    }
+    
+}
+
+@media only screen and (max-width:500px){
+
+    label.logo {
+        padding-left: 20px;
+    }
+    
+    nav ul li a {
+        font-size: 16px;
+    }  
+    
 }
