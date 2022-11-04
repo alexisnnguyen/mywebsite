@@ -349,8 +349,12 @@ nav img {
         padding-left: 20px;
     }
     
+    ul {
+        width: 30%;
+    }
+    
     nav ul li a {
-        font-size: 16px;
+        font-size: 20px;
     }  
     
 }
