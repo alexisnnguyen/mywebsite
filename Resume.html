@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset = "UTF - 8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <title>Alexis Nguyen</title>
+        <link href = "Resume.css" rel = "stylesheet">
+    </head>
+
+    <body>
+        
+        <nav>
+            <label class="logo" onclick="togglemenu()">ALEXIS NGUYEN</label>
+            <img src="menu.png" class="menu" onclick="togglemenu()">
+            <ul id = "nav-items">
+                <li><a href="MyWebsite.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+            </ul>
+            
+        </nav>
+
+        <section>
+            <div class="description">
+                <h2>My hope is to bring innovation and new ideas into the growing 
+                    world of technology.</h2>
+                <p>With a Vietnamese-American upbringing, I have made it a personal 
+                    mission to incorporate a multitude of unique perspectives into 
+                    my work to form a more diverse palette across all aspects. In 
+                    addition, I hope to implement my passions and knowledge in 
+                    fashion, social trends, and different cultures into the tech 
+                    industry wherever it may fit.
+                </p>
+                <p>Given my background in caregiving, customer service, and leadership, 
+                    I hope to create more interactive experiences with my projects in 
+                    order to increase inclusivity for all users. </p>
+                <a href="AlexisNguyenResume.pdf" download="Alexis-Nguyen-Resume.pdf">
+                    <button type="button">View Resume</button>
+                </a>
+                
+            </div>
+
+        </section>
+
+        <section>
+            <div class="resume">
+
+                <div class="education-container">
+                    <div class="education-header">
+                        <h2>EDUCATION</h2>
+                    </div>
+                    <div class="education-items">
+                        <div class="university">
+                            <p>B.S. Computer Science, University of Portland</p>
+                        </div>
+                        <div class="education-year">
+                            <p>Expected 2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-container">
+                    <div class="skills-header">
+                        <h2>SKILLS</h2>
+                    </div>
+                    <div class="skills-items">
+                        <div class="skills-elements">
+                            <p>C/Java/Python Programming Languages</p>
+                            <p>HTML/CSS/Javascript</p>
+                            <p>Web Design</p>
+                            <p>Linux System</p>
+                            <p>Customer Service</p>
+                            <p>Fluency in Vietnamese</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="explead-container">
+                    <div class="explead-header">
+                        <h2>EXPERIENCE AND LEADERSHIP</h2>
+                    </div>
+                    <div class="explead-items">
+                        <div class="beyondbeauty">
+                            <div class="beyondbeautyjd">
+                                <p>Receptionist, Beyond Beauty</p>
+                            </div>
+                            <div class="year">
+                                <p>2016-</p>
+                            </div>
+                        </div>
+                        <div class="bonchon">
+                            <div class="bonchonjd">
+                                <p>Cashier, Bonchon Happy Valley</p>
+                            </div>
+                            <div class="year">
+                                <p>2021-</p>
+                            </div>
+                        </div>
+                        <div class="tntt">
+                            <div class="tnttjd">
+                                <p>Volunteer Youth Group Leader, VEYM</p>
+                            </div>
+                            <div class="year">
+                                <p>2021-</p>
+                            </div>
+                        </div>
+                        <div class="marquis">
+                            <div class="marquisjd">
+                                <p>CNA, Marquis Mill Park</p>
+                            </div>
+                            <div class="year">
+                                <p>2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-container">
+                    <div class="projects-header">
+                        <h2>PROJECTS</h2>
+                    </div>
+                    <div class="projects-items">
+                        <div class="game2024">
+                            <p>2024, Recreated the game 2024 
+                                using HTML/CSS/Javascript</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="socials">
+            <div class="socials-container">
+                <li><a href="mailto: alexisnnguyen18@gmail.com"><img src="email.png"></a></li>
+                <li><a href="https://github.com/alexisnnguyen"><img src="github.png"></a></li>
+                <li> <a href="https://www.linkedin.com/in/alexis-nguyen-250152245/"><img src="linkedin.png"></a></li>
+            </div>
+        </section>
+
+        <script>
+            var menuList = document.getElementById("nav-items");
+            menuList.style.right = "-100%";
+
+            function togglemenu() {
+                if (menuList.style.right == "-20px") {
+                    menuList.style.right = "-100%";
+                }
+                else {
+                    menuList.style.right = "-20px";
+                }
+            }
+
+        </script>
+
+    </body>
+
+</html>

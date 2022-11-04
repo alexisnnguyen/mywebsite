@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset = "UTF - 8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <title>Alexis Nguyen</title>
+        <link href = "About.css" rel = "stylesheet">
+    </head>
+
+    <body>
+        
+        <nav>
+            <label class="logo" onclick="togglemenu()">ALEXIS NGUYEN</label>
+            <img src="menu.png" class="menu" onclick="togglemenu()">
+            <ul id = "nav-items">
+                <li><a href="MyWebsite.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+            </ul>
+            
+        </nav>
+
+        <section>
+            <img src="camping.jpg" class="camping">
+        </section>
+        
+        <section class="bio-container">
+            <div class="biography">
+                <h2>My Story</h2>
+                <div class="upbringing">
+                    <p>Growing up I always found myself fascinated by technology. My dad was a technician, and I knew I 
+                        wanted to explore that world when he brought me to a Bring Your Child to Work Day where I got to 
+                        learn about programming and development. The big challenge that I faced was that there weren't many 
+                        women, let alone women of color, in the field. That discouraged me from pursuing engineering for many 
+                        years, ultimately leading me to pursue nursing going into college.</p>
+                    <p>Although I eventually made my way back into tech, I am thankful for all the skills I leanred from the 
+                        medical field, especially as a nursing assistant where I developed many social and organizational 
+                        skills. I learned to better interact with people of all identities and perform my duty as a team 
+                        member. All these skill have been easily transferable to the different roles I have partaken in and 
+                        in my daily life too.</p>
+                    <p>Now as a CS student at University of Portland, I find myself immersed in innovation, either through my
+                        classes, the communities and organizations I surround myself with, of even in the side projects I 
+                        tackle during my free time. The past year, I have taught myself the basics of coding, in addition to 
+                        the schooling I recieved, to get to where I am today. My interest and passion for tech has only grown 
+                        since. My most recent interest, web development, has lead to to recreate my favorite games and even 
+                        this website that you are currently on. My goal is to continue on this path and explore where 
+                        technology may take our soceity and how I might play a role in that change.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="facts-container">
+            <div class="funfacts">
+                <div class="myloves-header">
+                    <h2>What I love...</h2>
+                </div>
+                <div class="myloves">
+                    <p>exploring the wilderness, trying new food, cats, a hot cup of tea with a good book, traveling
+                        the world, my family and friends, and everything about autumn.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="socials">
+            <div class="socials-container">
+                <li><a href="mailto: alexisnnguyen18@gmail.com"><img src="email.png"></a></li>
+                <li><a href="https://github.com/alexisnnguyen"><img src="github.png"></a></li>
+                <li> <a href="https://www.linkedin.com/in/alexis-nguyen-250152245/"><img src="linkedin.png"></a></li>
+            </div>
+        </section>
+
+        <script>
+            var menuList = document.getElementById("nav-items");
+            menuList.style.right = "-100%";
+
+            function togglemenu() {
+                if (menuList.style.right == "-20px") {
+                    menuList.style.right = "-100%";
+                }
+                else {
+                    menuList.style.right = "-20px";
+                }
+            }
+        </script>
+
+    </body>
+
+</html>

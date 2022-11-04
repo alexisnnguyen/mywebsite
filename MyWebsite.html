@@ -1,0 +1,65 @@
+</html>
+
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset = "UTF - 8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <title>Alexis Nguyen</title>
+        <link href = "MyWebsite.css" rel = "stylesheet">
+    </head>
+
+    <body>
+        
+        <nav>
+            <label class="logo" onclick="togglemenu()">ALEXIS NGUYEN</label>
+            <img src="menu.png" class="menu" onclick="togglemenu()">
+            <ul id = "nav-items">
+                <li><a href="MyWebsite.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+            </ul>
+        </nav>
+
+        <section class="bio">
+            <div class="bio-container">
+                <div class="bio-container-left">
+                    <img src="pfp.jpeg" alt="pfp" class = "bio-image">
+                </div>
+                <div class="bio-container-right">
+                    <h2>Hi!</h2> 
+                    <h3>I'm Alexis</h3>
+                    <p>I am a student at University of Portland majoring 
+                    in computer science, and I like coding and designing
+                    stuff.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="socials">
+            <div class="socials-container">
+                <li><a href="mailto: alexisnnguyen18@gmail.com"><img src="email.png"></a></li>
+                <li><a href="https://github.com/alexisnnguyen"><img src="github.png"></a></li>
+                <li> <a href="https://www.linkedin.com/in/alexis-nguyen-250152245/"><img src="linkedin.png"></a></li>
+            </div>
+        </section>
+
+        <script>
+            var menuList = document.getElementById("nav-items");
+            menuList.style.right = "-100%";
+
+            function togglemenu() {
+                if (menuList.style.right == "-20px") {
+                    menuList.style.right = "-100%";
+                }
+                else {
+                    menuList.style.right = "-20px";
+                }
+            }
+        </script>
+
+    </body>
+
+</html>

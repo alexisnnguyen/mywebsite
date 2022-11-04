@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Sacramento&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body {
+    background-image: linear-gradient(white, rgb(234, 230, 222));
+
+}
+
+label.logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(93, 78, 52);
+    font-weight: bold;
+    line-height: 80px;
+    padding: 0 65px;
+}
+
+nav {
+    background-color: rgb(234, 230, 222);
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(89, 75, 50);
+    padding: 10px;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(184, 166, 140);
+    transition: .5s;
+}
+
+nav img {
+    display: none;
+    float: right;
+    height: 40px;
+    line-height: 80px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.bio-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio-container-right {
+    padding: 10px;
+    flex-basis: 40%;
+    margin-right: 10%;
+    color: rgb(170, 156, 130);
+}
+
+.bio-container-right h2 {
+    color: rgb(121, 103, 73);
+    margin-bottom: 2px;
+    font-size: 6vw;
+}
+.bio-container-right h3 {
+    color: rgb(121, 103, 73);
+    margin-bottom: 10px;
+    font-size: 3vw;
+}
+
+.bio-container-right p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.75vw;
+}
+
+.bio-container-left {
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.bio-container-left .bio-image {
+    width: 90%;
+}
+
+.socials {
+    width: 100%;
+    height: 80px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.socials-container li {
+    line-height: 80px;
+    display: inline-block;
+   
+}
+.socials-container img {
+    height: 40px;
+    line-height: 80px;
+    cursor: pointer;
+    margin: 20px;
+    align-content: center;
+}
+
+
+
+@media only screen and (max-width:1000px){
+
+    .bio-container-right p {
+        font-size: 2vw;
+    }
+
+    label.logo {
+        padding-left: 50px;
+    }
+    
+    nav ul li a {
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (max-width:650px){
+
+    label.logo {
+        padding-left: 35px;
+    }
+    
+    nav ul li a {
+        font-size: 20px;
+    }
+    
+    nav img {
+        display:block;
+    }
+    
+    ul {
+        position: fixed;
+        width: 20%;
+        height: 100vh;
+        background-color: rgb(245, 242, 238);
+        transition: all .5s;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 60px;
+    }
+    
+    
+}
