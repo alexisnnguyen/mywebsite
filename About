@@ -15,7 +15,7 @@
             <img src="menu.png" class="menu" onclick="togglemenu()">
             <ul id = "nav-items">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
+                <li><a href="About">About</a></li>
                 <li><a href="Resume.html">Resume</a></li>
             </ul>
             
