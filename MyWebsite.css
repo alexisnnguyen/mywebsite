@@ -71,7 +71,7 @@ nav img {
 
 .bio-container-right {
     padding: 10px;
-    flex-basis: 40%;
+    flex-basis: 60%;
     margin-right: 10%;
     color: rgb(170, 156, 130);
 }
@@ -97,7 +97,7 @@ nav img {
     align-items:center;
     padding: 10px;
     margin-left: 10%;
-    /* width: 50%; */
+    flex-basis: 40%;
 }
 
 .bio-container-left .bio-image {
