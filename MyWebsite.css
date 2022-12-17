@@ -64,7 +64,7 @@ nav img {
 .bio-container {
     display: flex;
     grid-template-columns: 1fr 1fr;
-    margin: 100px 0px;
+    margin: 3% 0;
     align-items: center;
     justify-content: center;
 }
@@ -97,10 +97,13 @@ nav img {
     align-items:center;
     padding: 10px;
     margin-left: 10%;
+    /* width: 50%; */
 }
 
 .bio-container-left .bio-image {
-    width: 90%;
+    margin: 10%;
+    float: right;
+    width: 19rem;
 }
 
 .socials {
@@ -154,6 +157,14 @@ nav img {
     .bio-container-right {
         flex-basis: 50%;
     }
+
+    .bio-container-left {
+        width: 50%;
+    }
+    
+    .bio-container-left .bio-image {
+        width: 80%;
+    }
     
 }
 
@@ -189,7 +200,7 @@ nav img {
 @media only screen and (max-width:500px){
 
     label.logo {
-        padding-left: 20px;
+        padding-left: 18px;
     }
     
     ul {
@@ -197,7 +208,7 @@ nav img {
     }
     
     nav ul li a {
-        font-size: 20px;
+        font-size: 18px;
     }  
     
 }
