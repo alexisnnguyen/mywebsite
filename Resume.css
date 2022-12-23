@@ -226,6 +226,18 @@ nav img {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.weather p {
+    padding: 2vw 0;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.website p {
+    padding: 2vw 0;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 
 
 
