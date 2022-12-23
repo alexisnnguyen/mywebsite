@@ -216,7 +216,7 @@ nav img {
 }
 
 .projects-items {
-    display: flex;
+    display: block;
     padding: 0 30px;
 }
 
