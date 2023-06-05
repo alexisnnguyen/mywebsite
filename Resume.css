@@ -197,6 +197,11 @@ nav img {
     justify-content: space-between;
 }
 
+.ripplematch {
+    display: flex;
+    justify-content: space-between;
+}
+
 .marquis {
     display: flex;
     justify-content: space-between;
@@ -218,6 +223,12 @@ nav img {
 .projects-items {
     display: block;
     padding: 0 30px;
+}
+
+.gameGoFish p {
+    padding: 2vw 0;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .game2024 p {
